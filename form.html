@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="table1.html" style="text-align: center;" method="post">
+
+<div>
+    <label for="abc">user Name</label>
+    <input type="text" Name="username" id="abc" placeholder="Enter your id" maxlength="5">
+</div>
+
+<div>
+    <label for="pwd">Password</label>
+    <input type="password" Name="password" id="pwd" required minlength="8" maxlength="12">
+</div>
+
+<div>
+<label for="email">Email</label>
+<input type="email" name="Email" id="email" >
+</div>
+
+<div>
+    <label for="dob">Date of birth</label>
+    <input type="date" name="Email" id="dob" required >
+</div>
+
+<div>
+    <label for="mob">Mobile Number</label>
+    <input type="tel" name="mobile" id="mob" required pattern="[6-9][0-9]{9}" >
+</div>
+
+<div>
+    <label for="num">Number</label>
+    <input type="number" name="mobile" id="num" step="1" max="6" min="1" >
+</div>
+<div>
+    <input type="radio" name="gender" id="male" value="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" id="female" value="Female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="gender" id="Others" value="Others">
+    <label for="Others">Others</label>
+</div>
+
+<div>
+    <input type="checkbox" name="check" id="box">
+    <label for="box">I agree terms and condition</label>
+</div>
+<div>
+    <label for="box">Comments</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
+<div>
+    <label for="">choose any</label> 
+<select name="" id="">
+<option value="html">html</option>
+<option value="CSS">CSS</option>
+<option value="java">java</option>
+</select>
+</div>
+<div>
+    <label for="">Upload file</label>
+    <input type="file" name="" id="">
+
+</div>
+
+<div>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</div>
+
+</form>
+</body>
+</html>
